@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nqwmu2UNGl8=",
+  "success": true,
+  "projectFilePath": "/home/moisesguerrero/Desktop/CapacitacionRabbitMQ-main/ChatProducer/ChatProducer.csproj",
+  "expectedPackageFiles": [
+    "/home/moisesguerrero/.nuget/packages/rabbitmq.client/7.2.0/rabbitmq.client.7.2.0.nupkg.sha512",
+    "/home/moisesguerrero/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

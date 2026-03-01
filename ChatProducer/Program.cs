@@ -8,7 +8,6 @@ var builder = Host.CreateApplicationBuilder(args);
 builder.Services.AddRabbitMQ(builder.Configuration);
 var host = builder.Build();
 
-// Arrancamos el host para inicializar las conexiones internas
 _ = host.RunAsync();
 
 var rabbitManager = host.Services.GetFirstRabbitMqManager();
@@ -29,7 +28,6 @@ while (true)
         CorrelationId = Guid.NewGuid().ToString() 
     };
 
-    // Serializamos a JSON antes de publicar
     var json = JsonSerializer.Serialize(msg);
     await rabbitManager.PublishMessage(json);
     Console.WriteLine("Sent!");

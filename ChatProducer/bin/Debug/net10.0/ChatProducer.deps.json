@@ -8,28 +8,37 @@
     ".NETCoreApp,Version=v10.0": {
       "ChatProducer/1.0.0": {
         "dependencies": {
-          "RabbitMQ.Client": "7.2.0"
+          "Simone.Common.RabbitMQ": "2.8.1"
         },
         "runtime": {
           "ChatProducer.dll": {}
         }
       },
-      "RabbitMQ.Client/7.2.0": {
-        "dependencies": {
-          "System.Threading.RateLimiting": "8.0.0"
-        },
+      "Newtonsoft.Json/13.0.4": {
         "runtime": {
-          "lib/net8.0/RabbitMQ.Client.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.2.0.0"
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
           }
         }
       },
-      "System.Threading.RateLimiting/8.0.0": {
+      "RabbitMQ.Client/7.2.1": {
         "runtime": {
-          "lib/net8.0/System.Threading.RateLimiting.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
+          "lib/net8.0/RabbitMQ.Client.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.2.1.0"
+          }
+        }
+      },
+      "Simone.Common.RabbitMQ/2.8.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.4",
+          "RabbitMQ.Client": "7.2.1"
+        },
+        "runtime": {
+          "lib/net9.0/Simone.Common.RabbitMQ.dll": {
+            "assemblyVersion": "2.8.1.0",
+            "fileVersion": "2.8.1.0"
           }
         }
       }
@@ -41,19 +50,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "RabbitMQ.Client/7.2.0": {
+    "Newtonsoft.Json/13.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PPQ7cF7lwbhqC4up6en1bTUZlz06YqQwJecOJzsguTtyhNA7oL5uNDZIx/h6ZfcyPZV4V3DYKSCxfm4RUFLcbA==",
-      "path": "rabbitmq.client/7.2.0",
-      "hashPath": "rabbitmq.client.7.2.0.nupkg.sha512"
+      "sha512": "sha512-pdgNNMai3zv51W5aq268sujXUyx7SNdE2bj1wZcWjAQrKMFZV260lbqYop1d2GM67JI1huLRwxo9ZqnfF/lC6A==",
+      "path": "newtonsoft.json/13.0.4",
+      "hashPath": "newtonsoft.json.13.0.4.nupkg.sha512"
     },
-    "System.Threading.RateLimiting/8.0.0": {
+    "RabbitMQ.Client/7.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7mu9v0QDv66ar3DpGSZHg9NuNcxDaaAcnMULuZlaTpP9+hwXhrxNGsF5GmLkSHxFdb5bBc1TzeujsRgTrPWi+Q==",
-      "path": "system.threading.ratelimiting/8.0.0",
-      "hashPath": "system.threading.ratelimiting.8.0.0.nupkg.sha512"
+      "sha512": "sha512-YKXEfg9fVQiTKgZlvIhAfPSFaamEgi8DsQmisCH0IAsU4FYLrtoguDrDj6JtJVGUt40QPnBLRH6fTQcAC4qsOg==",
+      "path": "rabbitmq.client/7.2.1",
+      "hashPath": "rabbitmq.client.7.2.1.nupkg.sha512"
+    },
+    "Simone.Common.RabbitMQ/2.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hh6eKaRVo4UE4QKhlZsu1B+Y3KHExU7P0s3136eTaEGF9A50AUnp7BupNw7JNsGth4akcOb0wLVdDkOAPZMmkQ==",
+      "path": "simone.common.rabbitmq/2.8.1",
+      "hashPath": "simone.common.rabbitmq.2.8.1.nupkg.sha512"
     }
   }
 }

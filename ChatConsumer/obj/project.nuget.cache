@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "6tg0ORNza7M=",
+  "dgSpecHash": "bETODSno5RY=",
   "success": true,
   "projectFilePath": "/home/moisesguerrero/Desktop/CapacitacionRabbitMQ-main/ChatConsumer/ChatConsumer.csproj",
   "expectedPackageFiles": [
-    "/home/moisesguerrero/.nuget/packages/rabbitmq.client/7.2.0/rabbitmq.client.7.2.0.nupkg.sha512",
-    "/home/moisesguerrero/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512"
+    "/home/moisesguerrero/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.3/microsoft.extensions.configuration.abstractions.10.0.3.nupkg.sha512",
+    "/home/moisesguerrero/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.3/microsoft.extensions.dependencyinjection.abstractions.10.0.3.nupkg.sha512",
+    "/home/moisesguerrero/.nuget/packages/microsoft.extensions.primitives/10.0.3/microsoft.extensions.primitives.10.0.3.nupkg.sha512",
+    "/home/moisesguerrero/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512",
+    "/home/moisesguerrero/.nuget/packages/rabbitmq.client/7.2.1/rabbitmq.client.7.2.1.nupkg.sha512",
+    "/home/moisesguerrero/.nuget/packages/simone.common.rabbitmq/2.9.0/simone.common.rabbitmq.2.9.0.nupkg.sha512",
+    "/home/moisesguerrero/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
+    "/home/moisesguerrero/.nuget/packages/system.threading.ratelimiting/8.0.0/system.threading.ratelimiting.8.0.0.nupkg.sha512",
+    "/home/moisesguerrero/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.24/microsoft.netcore.app.host.linux-x64.8.0.24.nupkg.sha512"
   ],
   "logs": []
 }
